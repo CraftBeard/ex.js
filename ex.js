@@ -12,12 +12,13 @@
 
 'use strict';
 
-//var pager = $(".s-pagination-button");
-//console.log(pager.length);
-//console.log(pager[0]);
-//console.log(pager);
+var pager = $(".s-pagination-button");
+console.log(pager.length);
+console.log(pager[0]);
+console.log(pager);
 
-//pager.click(cal_currency);
+// todo: 待优化，不刷新页面
+pager.click(function(){location.reload();});
 
 (function cal_currency()
 {
