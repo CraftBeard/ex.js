@@ -10,6 +10,8 @@
 // @require      https://code.jquery.com/jquery-3.6.0.min.js
 // ==/UserScript==
 
+// tested on Chrome(106.0.5249.119) and Tampermonkey(4.18.0)
+
 'use strict';
 
 var pager = $(".s-pagination-button");
